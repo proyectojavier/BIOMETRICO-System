@@ -10,8 +10,6 @@ Public Class clsLogin
             Integrated Security=False;User ID=" & pro.gUsuario & ";
             Password = " & pro.gPassword & ""
 
-
-
             sqlCadena.Open()
 
             comando = New SqlCommand(consulta, sqlCadena) 'Manda llamar el query y la coneccion al darle enter lo ejecuta
