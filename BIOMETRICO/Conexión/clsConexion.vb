@@ -4,7 +4,6 @@ Public Class clsConexion
                                             Persist Security Info=True;User ID=" & BIO.CodigoUsuario & ";
                                             Password=" & BIO.ContraseñaUsuario & "")
 
-    Public RutaArchivo = "C:\"
     Public Sub conectar()
         Try
             sqlConec.Open()
