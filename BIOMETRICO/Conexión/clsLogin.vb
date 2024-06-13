@@ -20,7 +20,6 @@ Public Class clsLogin
             BIO.vPrivilegios = Convert.ToInt32(comando.ExecuteScalar)
             sqlCadena.Close()
             If BIO.vPrivilegios = 0 Then
-                BIO.vPrivilegios = 99
                 Return False
             Else
                 Return True
